@@ -1,0 +1,34 @@
+{
+  "name": "devlopement-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urbangabbar/devlopement-scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urbangabbar/devlopement-scripts/issues"
+  },
+  "homepage": "https://github.com/urbangabbar/devlopement-scripts#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "jest": "^26.1.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/webpack": "^4.41.18",
+    "@types/webpack-dev-server": "^3.11.0",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
+  }
+}
